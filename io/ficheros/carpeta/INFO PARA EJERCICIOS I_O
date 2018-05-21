@@ -1,0 +1,17 @@
+Para escribir ficheros de texto utlizamos PrintWriter o PrintStream
+Para escribir ficheros binarios utilizamos FileOutputStream: la estructura seria la siguiente:
+	DataOutputStream out = new DataOutputStream(
+				new BufferedOutputStream(
+						new FileOutputStream("archivo.dat")));)
+
+
+
+
+
+Para leer ficheros de texto utilizamos Scanner
+Para leer ficheros de binario utilizamos DataInputStreem
+Para leer CSV Scanner
+Arrayd de JSON Scanner
+Imagen InputStream
+leer fichero office/word/libreoffice DataInputStream
+Si los datos vienen formateados (
